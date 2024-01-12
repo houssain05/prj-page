@@ -1,0 +1,61 @@
+.logo{
+    height: 40px;
+    margin-right: 30px;
+    color: beige;
+    font-size: 100px;
+    text-align: center;
+}
+.logo::first-letter{
+    color: aquamarine;
+}
+strong{
+    color: darkkhaki;
+    font-size: 50px;
+    font-style:italic; 
+}
+.az{
+    text-align: end;
+}
+.az::first-letter{
+    color: aquamarine;
+}
+.img img{
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    height: 300px;
+    width: 300px;
+    margin-left: 100px;
+}
+.titre{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+}
+.box1{
+   transition-property: all;
+   transition-duration: 2s;
+   opacity: 80%;
+}
+.box1:hover{
+    transform: translateY(-100px);
+}
+.box2{
+    transition-property: all;
+    transition-duration: 2s;
+    opacity: 80%;
+ }
+ .box2:hover{
+     transform: translateY(-100px);
+ }
+ .box3{
+    transition-property: all;
+    transition-duration: 2s;
+    opacity: 80%;
+ }
+ .box3:hover{
+     transform: translateY(-100px);
+ }
+
